@@ -1,0 +1,16 @@
+packages/*
+
+bin
+
+obj
+
+*.suo
+
+*.user
+
+*.vspscc
+
+*/_sgbak/*
+
+
+.nuget
