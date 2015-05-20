@@ -68,6 +68,8 @@ namespace Inedo.BuildMasterExtensions.Artifactory
             var uri = new Uri(string.Format(url.ToString(), this.RepositoryKey, this.ItemName));
             var req = new WebClient();
             req.Credentials = new NetworkCredential(this.Credentials.Username, this.Credentials.Password);
+
+            WebClient
             try
             {
                 req.DownloadFile(uri, fname);
