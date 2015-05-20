@@ -69,7 +69,6 @@ namespace Inedo.BuildMasterExtensions.Artifactory
             var req = new WebClient();
             req.Credentials = new NetworkCredential(this.Credentials.Username, this.Credentials.Password);
 
-            WebClient
             try
             {
                 req.DownloadFile(uri, fname);
