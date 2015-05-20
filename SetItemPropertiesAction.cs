@@ -13,8 +13,8 @@ namespace Inedo.BuildMasterExtensions.Artifactory
 {
     [ActionProperties(
         "Set Item Properties",
-        "Recursively sets properties on items in the specified location.",
-        "Artifactory")]
+        "Recursively sets properties on items in the specified location.")]
+    [Tag("Artifactory")]
     [CustomEditor(typeof(SetItemPropertiesActionEditor))]
     public class SetItemPropertiesAction : ArtifactoryActionBase 
     {

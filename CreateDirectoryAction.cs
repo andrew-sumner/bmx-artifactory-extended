@@ -13,8 +13,8 @@ namespace Inedo.BuildMasterExtensions.Artifactory
 {
     [ActionProperties(
         "Create Directory",
-        "Creates a new directory in the specified location.",
-        "Artifactory")]
+        "Creates a new directory in the specified location.")]
+    [Tag("Artifactory")]
     [CustomEditor(typeof(CreateDirectoryActionEditor))]
     public class CreateDirectoryAction : ArtifactoryActionBase 
     {

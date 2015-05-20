@@ -14,8 +14,8 @@ namespace Inedo.BuildMasterExtensions.Artifactory
 {
     [ActionProperties(
     "Deploy Artifact",
-    "Deploys an atifact to a repository.",
-    "Artifactory")]
+    "Deploys an atifact to a repository.")]
+    [Tag("Artifactory")]
     [CustomEditor(typeof(DeployArtifactActionEditor))]
     public class DeployArtifactAction : ArtifactoryActionBase 
     {

@@ -13,8 +13,8 @@ namespace Inedo.BuildMasterExtensions.Artifactory
 {
     [ActionProperties(
         "Move Item",
-        "Moves an item to a new location.",
-        "Artifactory")]
+        "Moves an item to a new location.")]
+    [Tag("Artifactory")]
     [CustomEditor(typeof(MoveItemActionEditor))]
     public class MoveItemAction : ArtifactoryActionBase 
     {

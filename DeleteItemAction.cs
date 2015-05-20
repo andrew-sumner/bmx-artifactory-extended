@@ -13,8 +13,8 @@ namespace Inedo.BuildMasterExtensions.Artifactory
 {
     [ActionProperties(
         "Delete Item",
-        "Recursively deletes an item (artifact or directory) from a repository.",
-        "Artifactory")]
+        "Recursively deletes an item (artifact or directory) from a repository.")]
+    [Tag("Artifactory")]
     [CustomEditor(typeof(DeleteItemActionEditor))]
     public class DeleteItemAction : ArtifactoryActionBase 
     {
